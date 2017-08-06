@@ -1,0 +1,4 @@
+{
+	"authorize"		: true,
+	"authorize_url" : "http://localhost/c2c/index.php/auth/api/hasAccess"
+}

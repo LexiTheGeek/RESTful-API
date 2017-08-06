@@ -1,8 +1,11 @@
-module.exports = function(router, connection) {
-	var todoList = require('../controllers/tasks')(connection);
+module.exports = function(router, api) {
 	
 	// todoList Routes
 	router.route('/tasks')
-		.get(todoList.list_all_tasks);
+		.get(function (req, res){			
+			api('todoList.list_all_tasks', req, res);	
+		});
 		
 };
+
+

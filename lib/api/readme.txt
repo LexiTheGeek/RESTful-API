@@ -1,0 +1,1 @@
+This directory contains the resources used by lib/api.js

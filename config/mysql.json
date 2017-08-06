@@ -1,0 +1,12 @@
+{
+	"openSRS" : {		
+		"host" 		: "localhost",
+		"user"		: "root",
+		"password" 	: "",
+		"database" 	: "opensrs",
+		"debug"    	:  false,
+		"connectionLimit" 	: 10
+	}
+}	
+	
+	

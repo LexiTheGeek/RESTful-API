@@ -1,0 +1,8 @@
+{	
+	"todoList": {
+		"file": "tasks.js",
+		"acl": {
+			"list_all_tasks": "advising.appointment.calendar"
+		}
+	}
+}

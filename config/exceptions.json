@@ -1,0 +1,25 @@
+{
+	"ValidationError": {
+		"code"		: "ERR_INVALID_ARG_TYPE",
+		"status"	: 400,
+		"message"	: "A Validation Error Occured",
+		"subtypes"	: {
+			"required" 	: {
+				"message" 	: "%s is Required But Was Not Provided"
+			},
+			"typeError"	: {
+				"message"	: "Invalid Datatype for %s. Expects %s"
+			}
+		}
+	},
+	"ConfigurationError": {
+		"code"		: "ERR_INVALID_CONFIG",
+		"status"	: 500,
+		"message"	: "A Configure Problem Was Detected in '%s'",
+		"subtypes"	: {
+			"required" : {
+				"message"	: "Configuration File '%s' is Missing"
+			}
+		}
+	}
+}

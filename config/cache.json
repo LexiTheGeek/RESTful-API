@@ -1,0 +1,7 @@
+{
+	"auth" : {
+		"enabled"	  : true,
+		"stdTTL"	  : 300,
+		"checkperiod" : 60
+	}
+}
